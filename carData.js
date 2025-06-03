@@ -12,7 +12,7 @@ export const carData = [
     "fuel_type": "Petrol",
     "transmission": "Manual or Automatic",
     "Price":14000,
-    "img":"../Cars/1.png",
+    "img":"Cars/1.png",
   },
   {
     "id":2,
@@ -27,7 +27,7 @@ export const carData = [
     "fuel_type": "Diesel",
     "transmission": "Automatic",
     "Price":9000,
-    "img":"../Cars/7.png",
+    "img":"Cars/7.png",
     
   },
   {
@@ -43,7 +43,7 @@ export const carData = [
     "fuel_type": "Petrol",
     "transmission": "Automatic",
     "Price":16820,
-    "img":"../Cars/5.png",
+    "img":"Cars/5.png",
     
   },
   {
@@ -59,7 +59,7 @@ export const carData = [
     "fuel_type": "Gasoline or Diesel",
     "transmission": "Automatic",
     "Price": 33650,
-    "img":"../Cars/4.png"
+    "img":"Cars/4.png"
 },
 {
     "id": 5,
@@ -74,7 +74,7 @@ export const carData = [
     "fuel_type": "Gasoline",
     "transmission": "Automatic",
     "Price": 45050,
-    "img": "../Cars/2.png"
+    "img": "Cars/2.png"
 },
 {
     "id": 6,
@@ -89,7 +89,7 @@ export const carData = [
     "fuel_type": "Gasoline",
     "transmission": "Automatic",
     "Price": 21100,
-    "img": "../Cars/3.png",
+    "img": "Cars/3.png",
 },
 {
     "id": 7,
@@ -104,7 +104,7 @@ export const carData = [
     "fuel_type": "Gasoline",
     "transmission": "Automatic",
     "Price": 36900,
-    "img": "../Cars/6.png",
+    "img": "Cars/6.png",
 },
 {
      "id":8,
@@ -119,7 +119,7 @@ export const carData = [
     "fuel_type": "Petrol",
     "transmission": "Manual",
     "price": 12700,
-    "img":"../Cars/8.png",
+    "img":"Cars/8.png",
 },
 {
     "id":9,
@@ -134,7 +134,7 @@ export const carData = [
     "fuel_type": "Hybrid",
     "transmission": "Automatic",
     "Price": 22600,
-    "img":"../Cars/9.png",
+    "img":"Cars/9.png",
 },
 {
     "id":10,
@@ -149,7 +149,7 @@ export const carData = [
     "fuel_type": "Hybrid",
     "transmission": "Automatic",
     "Price": 36200,
-    "img":"../Cars/10.png",
+    "img":"Cars/10.png",
 },
 {
     "id":11,
@@ -164,7 +164,7 @@ export const carData = [
     "fuel_type": "Hybrid or Gasoline",
     "transmission": "Hybrid",
     "Price": 28690,
-    "img":"../Cars/11.png",
+    "img":"Cars/11.png",
 
 },
 {
@@ -180,7 +180,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 25000,
-    "img":"../Cars/12-copie1.png",
+    "img":"Cars/12-copie1.png",
 },
 {
     "id":13,
@@ -195,7 +195,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 17000,
-    "img":"../Cars/13-copie1.png",
+    "img":"Cars/13-copie1.png",
 },
 {
     "id":14,
@@ -210,7 +210,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 40000,
-    "img":"../Cars/14-copie1.png",
+    "img":"Cars/14-copie1.png",
 },
 {
     "id":15,
@@ -225,7 +225,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 17000,
-    "img":"../Cars/15-copie1.png",
+    "img":"Cars/15-copie1.png",
 },
 {
     "id":16,
@@ -240,7 +240,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 28000,
-    "img":"../Cars/16-copie1.png",
+    "img":"Cars/16-copie1.png",
 },
 {
     "id":17,
@@ -255,7 +255,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 50000,
-    "img":"../Cars/17-copie1.png",
+    "img":"Cars/17-copie1.png",
 },
 {
     "id":18,
@@ -270,7 +270,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 30000,
-    "img":"../Cars/18-copie5.png",
+    "img":"Cars/18-copie5.png",
 },
 {
     "id":19,
@@ -285,7 +285,7 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price": 40000,
-    "img":"../Cars/19.png",
+    "img":"Cars/19.png",
 },{
     "id":20,
     "brand": "TOYOTA",
@@ -299,6 +299,6 @@ export const carData = [
     "fuel_type": "Hybrid ",
     "transmission": "Automatic",
     "Price":37329,
-    "img":"../Cars/20-copie1.png",
+    "img":"Cars/20-copie1.png",
 },
 ]
