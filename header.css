@@ -1,0 +1,241 @@
+/* for the full bodyy  */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+/* naviguateur  */
+nav{
+    align-items: center;
+    position: relative;
+    padding: 0 30px;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    
+}
+.logo h2{
+    color: #fff;
+    font-size: clamp(16px,3vw,24px);
+}
+/* bigger than 900px */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  /*to align all item verticallyy on the same line*/
+}
+/* links container for both nav bars */
+.links , .links-dropdown{
+    display: flex;
+    gap: 30px;
+    
+}
+/* links contains for >900px */
+.links{
+    margin-left: auto;
+}
+/* for all <li> elementss */
+li{
+    list-style: none
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* <900px */
+.links-dropdown {
+    flex-direction: column;
+}
+.links-dropdown li a:hover{
+    color: white;
+}
+
+#sidebar-activate{
+    display: none;
+}
+/* filling the <svg> elements */
+svg{
+    fill: rgb(255, 255, 255);
+}
+/* for the open icon */
+.open{
+    display: none;
+    margin-left: auto;
+    padding: 16.6px 30px 16.6px 0;
+}
+/* my responsive menu <3 */
+.nav-bar-menu{
+    box-sizing: border-box;
+    display: flex;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+.dropdown-menu{
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    height: 0;
+    padding: 20px 20px ;
+    display: none;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    width: 100%;
+    z-index:1000000000 ;
+}
+/* my search bar */
+.search{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:50px;
+    margin-left: 80px;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    
+}
+.search .searchicon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    border-radius: 30px;
+    background-color: black;
+    
+    
+}
+
+.search .searchicon::before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    transform: translate(4px,3px);
+    
+}
+.search .searchicon::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 9px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transform: translate(22px,16px) rotate(315deg);
+    
+}
+.search.active{
+    width: 300px;
+}
+.search .input{
+    position: absolute;
+    height: 100%;
+    width: 230px;
+    left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 0 0 5px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.search .clear{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.search .clear::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 1.5px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg) ;
+    left: 50%;
+    
+
+}
+.search .clear::after{
+    content: '';
+    left: 50%;
+    position: absolute;
+    height: 15px;
+    width: 1.5px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(315deg) ;
+
+}
+@media(max-width:900px){
+    .logo{
+        margin-right: auto;
+    }
+    .links{
+        display: none;
+    }
+    .open{
+        display: block;
+        
+    }
+    .dropdown-menu{
+        height: 100vh;
+        z-index: 19990;
+        
+    }
+    input:checked~.dropdown-menu{
+        display: block;
+
+    }
+   
+    
+}
+@media (max-width:550px){
+    .search{
+        top: 5px;
+    }
+}
+@media(max-width:300px){
+    .search{
+        top: 0;
+    }
+}
+/* @media(max-width:450px){
+    .logo h2{
+        font-size: 20px;
+    }
+     .searchicon::after{
+        transform: translate(22px,18px);
+    }
+    .searchicon::before{
+        transform: translate(4px,6px);
+    }
+} */
