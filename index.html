@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Issan Auto - Find Your Next Car</title>
     <meta charset="UTF-8">
+    <!-- Canonical link (helps avoid duplicate content issues) -->
+    <link rel="canonical" href="https://yourdomain.com" />
+
+    <meta name="description" content="Issan Auto is your trusted platform for exploring and buying high-quality cars. Browse by brand, view images, and find the perfect car for you.">
+
+    <!-- Meta keywords -->
+    <meta name="keywords" content="cars for sale, Issan Auto, buy car online, car brands, Audi, BMW, car dealership, auto marketplace">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="top-main.css">
     <link rel="stylesheet" href="mainCategory.css">
-    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="Footermain.css">
     <link rel="shortcut icon" href="logo1.png" type="image/png">
-    <title>ISSAN AUTO</title>
+    
 </head>
 <body>
     <nav>
@@ -18,20 +26,12 @@
                 <h2>ISSAN AUTO</h2>
             </div>
             <ul class="links">
-                <li><a href="main.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="Categories.html">Categories</a></li>
-                <li><a href="About-us.html">About Us</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#Contact">Contact</a></li>
                 
             </ul>
-            <div class="search" id="searchBox">
-                <div class="searchicon" id="searchIcon"></div>
-                <div class="input">
-                    <input type="text" placeholder="search" id="mysearch">
-                </div>
-                <span class="clear" id="clearBtn"></span>
-                </div>
-            </div>
 
         </div>
         <div class="nav-bar-menu">
@@ -46,10 +46,10 @@
 
                 </label>
                 <ul class="links-dropdown">
-                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="Categories.html">Categories</a></li>
-                    <li><a href="About-us.html">About Us</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                     
                 </ul>
             </div>
@@ -64,7 +64,7 @@
             </div>
            
             <div class="top-main-img">
-                <img src="cover2.jpg" >
+                <img src="..\img\cover2.png" >
             </div>
         </div>
         <div class="carList">
@@ -88,13 +88,21 @@
                 </div>
             
             </section>
-            <a href="Categories.html" class="seeMore">SEE MORE ❯</a>
+            <a href="../html/Categories.html" class="seeMore">SEE MORE ❯</a>
         </section>
         
 
     </main>
     <section class="INFOS">
-        <div class="INFOS-sect">
+        <div class="INFOS-sect"  id="Contact">
+            <h3 class="INFOS-h3"> CONTACT US</h3>
+            <div class="infos-loc-container">
+                <p class="details"><i class="fa-solid fa-phone"></i> Phone numeber: 0000000000</p>
+                <p class="details"><i class="fa-solid fa-envelope"></i> Email: issanAuto@gmail.com</p>
+            </div>
+            
+        </div>
+        <div class="INFOS-sect sec2">
             <h3 class="INFOS-h3">WHY US?</h3>
             <div class="infos-loc-container">
                 <p  class="details"><i class="fa-solid fa-headset"></i>Better service ,</p>
@@ -102,14 +110,7 @@
                 <p  class="details"><i class="fa-solid fa-car"></i>Top cars,</p>
                 <p  class="details"><i class="fa-solid fa-handshake"></i>Honest wheels.</p>
             </div>
-            
-        </div>
-        <div class="INFOS-sect sec2">
-            <h3 class="INFOS-h3"> CONTACT US</h3>
-            <div class="infos-loc-container">
-                <p class="details"><i class="fa-solid fa-phone"></i> Phone numeber: 0000000000000000</p>
-                <p class="details"><i class="fa-solid fa-envelope"></i> Email: issanAuto@gmail.com</p>
-            </div>
+
         </div>
         <div class="INFOS-sect">
             <h3 class="INFOS-h3">OUR LOCATION </h3>
@@ -122,12 +123,53 @@
         </div>
     </section>
     <footer>
-         © 2025 Khadija. All rights reserved.
+        <div class="layouts-footer">
+            
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6640.801670478424!2d-6.0722426!3d33.8189982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda0dd5621ffe6fd%3A0x4285d2ede0628152!2sPharmacie%20AL%20AMALA!5e0!3m2!1sfr!2sma!4v1717941636531!5m2!1sfr!2sma"
+                width="100%"
+                height="200"
+                style="border:0; border-radius: 10px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="social-media">
+                <h3>Social Media</h3>
+                <a href="http://facebook.linksmg"> <i class="fab fa-facebook-f"></i> Facebook </a>
+                <a href="http://facebook.linksmg"> <i class="fab fa-instagram"></i> Instagram </a>
+                <a href="http://facebook.linksmg"> <i class="fab fa-whatsapp"></i>  WhatsApp </a>
+                <a href="http://facebook.linksmg"> <i class="fab fa-tiktok"></i>  Tiktok</a>
+                
+            </div>
+            <div id="about-us">
+                <h3>About US</h3>
+                <p>
+                    Welcome to <span>ISSAN AUTO </span>USA!
+
+                    We’re a U.S.-based car-selling platform focused on helping you find the right car at the right price.
+
+                    Our team is passionate about cars and committed to making the buying process easy, honest, and stress-free.
+
+                    Whether you're looking for a reliable used car or something more premium, we’ve got options for every driver.
+
+                    Browse. Choose. Drive.
+
+                    It’s that simple.
+                </p>
+               
+            </div>
+        </div>
+        
+
+
+         <p class="copyright">© 2025 ISSAN AUTO. All rights reserved.</p>
     </footer>
     
     
 <script type="module" src="mainRandom.js"></script>
 <script type="module" src="main.js"></script>
+<script type="module" src="search.js"></script>
 
    
 </body>
