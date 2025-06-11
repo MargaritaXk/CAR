@@ -1,4 +1,4 @@
-import { carData } from "carData.js";
+import { carData } from "./carData.js";
 
 const toggleBtn = document.getElementById("toggleSidebar");
 const sidebar = document.getElementById("sidebar");
