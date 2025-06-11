@@ -1,4 +1,4 @@
-import { carData } from "./carData.js";
+import { carData } from "carData.js";
 
 const container = document.querySelector('.cars-gallery');
 const searchInput = document.getElementById('mysearch');
