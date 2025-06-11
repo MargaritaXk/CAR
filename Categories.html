@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Categories.css">
-    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="FooterCategory.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>ISSAN AUTO - Categories</title>
 </head>
@@ -16,9 +17,16 @@
         <div class="logo">
                     <h2>ISSAN AUTO</h2>
         </div>
-        <div class="search">
+        <div class="search" id="searchBox">
+                 <i class="fa-solid fa-magnifying-glass" id="searchIcon" ></i>
+           
+                <input type="search" id="mysearch" placeholder="Search...">
+           
 
         </div>
+        <a href="index.html">
+            <i class="fas fa-house"></i>
+        </a>
     </header>
     <div class="layout">
         <button id="toggleSidebar" class="toggle-btn"><span>☰</span> Categories</button>
@@ -37,229 +45,7 @@
         </aside>
         <main class="category">
             <section class="cars-gallery">
-                <!-- <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\8.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\7.jpg">
-                    </div>
-                   <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\5.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\4.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\8.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\7.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\5.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\4.jpg">
-                    </div>
-                   <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\8.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\7.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\5.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\4.jpg">
-                    </div>
-                   <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\8.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\7.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\5.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-
-                    </div>
-                </div>
-                <div class="car">
-                    <div class="Model-make">
-                        <h3>model</h3>
-                    </div>
-                    <div class="car-picture">
-                        <img src="..\Cars\4.jpg">
-                    </div>
-                    <div class="infos">
-                        <p>Fuel type · transmission</p>
-                        <p>year · milleage</p>
-                        <p>price</p>
-                    </div>
-                </div> -->
+                
             </section>
             
             
@@ -282,11 +68,23 @@
     </div>
 
     <footer class="copyright-bar">
-            © 2025 Khadija. All rights reserved.
+            © 2025 ISSAN AUTO . All rights reserved.
     </footer>
     
     
-    <script type="module" src="category.js"></script>
+    <script type="module" src="..\Js\category.js"></script>
+    <script>
+        const search = document.getElementById('searchBox');
+        const icon = document.getElementById('searchIcon');
+        const input = document.getElementById('mysearch');
+        icon.addEventListener('click', () => {
+        search.classList.toggle('active');
+        if (search.classList.contains('active')) {
+            input.focus();
+        }
+        });
+    </script>
+    <script type="module" src="search.js"></script>
 </body>
 
 </html>
