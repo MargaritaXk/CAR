@@ -20,7 +20,7 @@ main{
     display: inline-block;
     position: absolute;
     right: 40px;
-    bottom: 20px;
+    bottom: 10px;
 }
 
 .cars-gallery{
@@ -125,29 +125,41 @@ main{
 }
 .INFOS{
     display: grid;
-    margin-top: 60px;
-    padding: 50px 200px;
+    padding: 4vw 15vw;
+    margin: 4vw 0;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 .INFOS .INFOS-sect{
     /* background-color: #F4C95D; */
     background-color: #fff;
+    max-width: 100%;
+    height: 150px;
     border-radius: 3px;
-    padding: 20px 0 40px 0;
+    padding: 3vh 0 6vh 0;
     box-shadow: 0 0 20px rgba(175, 204, 242, 0.6);
+    transition: scale 0.2s ease-in-out;
 
-
+}
+.INFOS .INFOS-sect:hover{
+    scale: 1.1;
 }
 .INFOS .INFOS-sect .INFOS-h3{
     text-align: center;
+    font-size: clamp(13px ,1.5vw,18px);
 }
 .INFOS .INFOS-sect+.sec2{
     background-color:#fcdb89 ;
 
 }
 .INFOS .INFOS-sect .infos-loc-container{
-    margin-left: 50px;
+    margin-left: 2vw;
+    font-size: clamp(9px,1.5vw,14px);
+    text-align: left;
+}
+.details{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .details i{
     margin-right:  4px;
@@ -174,5 +186,15 @@ main{
     .cars-gallery{
         grid-template-columns: 1fr 1fr 1fr ;
     
+    }
+}
+@media(max-width:450px){
+    .INFOS{
+        padding: 4vw 8vw;
+        gap: 15px;
+       
+    }
+    .INFOS .INFOS-sect{
+        padding: 3vh 0 3vh 0;
     }
 }
