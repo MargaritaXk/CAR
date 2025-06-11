@@ -15,7 +15,7 @@ main{
     right: 50%;
     top: 0;
     transform: translateX(50%);
-    color: white;
+    color: black;
     padding: auto  0 0 0;
 } 
 .top-main h1{
@@ -40,7 +40,7 @@ main{
     text-align: center;
     align-items: center;
     justify-content:center ;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .carlist-divider i{
     margin-right: 5px;
