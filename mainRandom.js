@@ -1,4 +1,5 @@
-import { carData } from "carData.js";
+import { carData } from "./carData.js";
+
 
 function getRandomItems(data, count) {
   const shuffled = data.sort(() => 0.5 - Math.random());
